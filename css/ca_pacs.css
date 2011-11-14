@@ -1,0 +1,9 @@
+/* CA PACs CSS */
+  /* List Template One */
+  #ca-pacs-template-one .views-field-view-node {float: right; margin-right: 10px;}
+	#ca-pacs-template-one .views-label-teaser,
+	#ca-pacs-template-one .views-label-field-ca-pacs-pac-activity-value {font-weight: bold;}
+  #ca-pacs-template-one .views-field-nothing {clear: both; margin-bottom: 10px; padding-bottom: 10px; border-bottom: 1px solid #D2D2D2;}
+  #ca-pacs-template-one .views-row-last .views-field-nothing {border: none;}
+	
+	

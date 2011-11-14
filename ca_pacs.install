@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * Implementation of hook_install().
+ */
+function ca_pacs_install() {
+  variable_set('ca_pacs_list_template', 'ca_pacs_list_template_one');
+  variable_set('ca_pacs_node_template', 'ca_pacs_node_template_one');
+}
+
+/**
+ * Implementation of hook_uninstall().
+ */
+function ca_pacs_uninstall() {
+  variable_del('ca_pacs_list_template');
+  variable_del('ca_pacs_node_template');
+}
